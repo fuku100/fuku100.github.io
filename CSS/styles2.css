@@ -202,6 +202,7 @@ span {
   padding: ;
   height: 60px;
   width: 60px;
+  box-sizing: border-box;
   border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
   border: 2px solid #ffffff;
   background: #f59a00;
@@ -561,11 +562,17 @@ input {
 
 legend {
   font-size: 20px;
+  box-sizing: border-box;
+  padding-left: 16px;
 }
 
 .choice {
   width: 348px;
-  margin: 16px;
+}
+
+.choice1 {
+  box-sizing: border-box;
+  padding-left: 16px;
 }
 
 
@@ -1167,6 +1174,10 @@ footer {
     border-style: solid;
     border-color: #333 transparent transparent transparent;
     transform: rotate(180deg);
+  }
+
+  footer {
+    font-size: 12px;
   }
 
 
